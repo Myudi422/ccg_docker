@@ -143,7 +143,7 @@ async def connect_database():
         {
             "connections": {
                 "bot_db": os.getenv(
-                    "DATABASE_URL", "postgres://brctoxboaccntd:6e5ee4489d246cde117fc756ab1ac14748bbf4b830b58c80c295c78aea6992ff@containers-us-west-57.railway.app:5851/d54vm0k01b1ojg"
+                    "DATABASE_URL", "postgres://ieaqnhugukonks:de30a374ee45093afddb462f46fe2880dbd61ccf69a00e7a1d1c6a5ad721dced@ec2-99-81-137-11.eu-west-1.compute.amazonaws.com:5432/ddauipjj590gjm"
                 )
             },
             "apps": {"bot": {"models": [__name__], "default_connection": "bot_db"}},
